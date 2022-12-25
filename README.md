@@ -1,7 +1,9 @@
 # Simple React Calculator using Vite Bundler
 
-``` npm install ```
+## Install
 
-or
+``` npm install ``` or ``` yarn ```
 
-``` yarn ```
+## Run
+
+``` npm run dev ``` or ``` yarn dev ```
