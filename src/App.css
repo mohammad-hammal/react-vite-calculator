@@ -1,0 +1,70 @@
+* {
+  outline: none;
+  font-family: system-ui;
+}
+
+body {
+  background-color: bisque;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-container {
+  width: 350px;
+  height: 600px;
+  background-color: cadetblue;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.result {
+  background-color: white;
+  height: 100px;
+  border-radius: 10px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 80px;
+}
+
+.result-mini {
+  font-size: 35px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  margin-top: 20px;
+}
+
+.numbers-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.zero-container {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+}
